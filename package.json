@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@semaphore-protocol/data": "^4.0.0-beta.13",
+    "@semaphore-protocol/group": "^4.0.0-beta.13",
+    "@semaphore-protocol/proof": "^4.0.0-beta.13",
+    "p12-pem": "^1.0.5"
+  }
+}

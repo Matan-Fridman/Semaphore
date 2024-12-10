@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Semaphore/Paybox/CommitmentVerifier.sol": "Pairing"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Semaphore/Paybox/CommitmentVerifier.sol": {
+			"keccak256": "0x558589ecb225f634d5f338e4e10a8b8be560e514f48cd3fe7df782858d856a8f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1fe4d43e120f73f3335a9928ae36e8f2250c8a584778efd09e7cd905abf2ea85",
+				"dweb:/ipfs/QmYoWdabvcr5gPeUbF75nLQDS8BV7DVekBCX6GwW6MZqhF"
+			]
+		}
+	},
+	"version": 1
+}

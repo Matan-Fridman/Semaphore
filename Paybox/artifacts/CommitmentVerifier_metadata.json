@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "input",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "r",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[3])": {
+					"returns": {
+						"r": " bool true if proof is valid"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Semaphore/Paybox/CommitmentVerifier.sol": "CommitmentVerifier"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Semaphore/Paybox/CommitmentVerifier.sol": {
+			"keccak256": "0xcd4cb32e5235178b47ecf7b34767875396b07047ef9b909e7ec399ef3a6a753b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f8d5bea9d905b0a81d8016357ea264ed2f4eda048072ffdce0cc56fffa6abbf4",
+				"dweb:/ipfs/QmZm3o9dvRMjpWunFtyDNBq8JQMowzMN5WyrCdUJKfBfVV"
+			]
+		}
+	},
+	"version": 1
+}

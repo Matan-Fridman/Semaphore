@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "input",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "r",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Semaphore/Paybox/MerkleTree.sol": "IVerifier"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Semaphore/Paybox/MerkleTree.sol": {
+			"keccak256": "0xcb90f105dddef14c4548eaa3bc137837545da4cdc22506940b65b8816514b355",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://52668a683cf47bfb6817ad5cb029134884fb798e830a1e906f3866e5ac2387cd",
+				"dweb:/ipfs/QmUHygbvLzRgUDtgLd3tm8X7Xo1LZDvGjTkBBsFpE3gP2Z"
+			]
+		},
+		"Semaphore/Paybox/MerkleTreeWithHistory.sol": {
+			"keccak256": "0x0960b33172a0808d22c40b800ada15083cc4250a70cb7834e0faba40266cd8fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://677e123bc89775034fc88bd2cd150eaf2ebb9b66228c29f77ce010d5723650f5",
+				"dweb:/ipfs/QmVjDT9GY2a7Abn9MULtxXJUjMnmKwpvqXKhYsFfJpo2is"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		}
+	},
+	"version": 1
+}
